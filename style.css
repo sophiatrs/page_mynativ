@@ -20,25 +20,16 @@ h1 {
 }
 
 .container {
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(255, 170, 0);
     display: flex;
 
 }
 
 .image-fond {
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(0, 106, 255);
     height: 100vh;
     width:75%;
 }
 
 .texte {
-    border-width: 2px;
-    border-style: solid;
-    border-color: red;
     width:25%;
     margin: 45px;
 }
