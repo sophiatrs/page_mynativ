@@ -72,3 +72,50 @@ button:hover {
     font-weight: 300;
 }
 
+@media (max-width: 768px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .texte {
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  input {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .developpement {
+    position: static;
+    text-align: center;
+    margin-top: 40px;
+  }
+}
